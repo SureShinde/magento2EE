@@ -87,4 +87,3 @@ crons:
         spec: "*/5 * * * *"
         cmd: "php bin/magento cron:run && php bin/magento cron:run"
 
-deploy: 1
