@@ -296,6 +296,10 @@ body:not(.device-touch) .promo-overlay {
 }
 
 .media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	.footer.content .links {
+		padding-right: 0px;
+	}
+
 	.promo-overlay,
 	.promo-overlay:before {
 		opacity: 0;

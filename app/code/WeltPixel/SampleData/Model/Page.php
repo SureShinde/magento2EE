@@ -89,7 +89,11 @@ class Page
                         ];
                         $row['content'] = str_replace($widgetPlaceholders,$widgetContents, $row['content']);
                         break;
-
+                    case 'home-page-v10':
+                        $widgetPlaceholder = '{{widget_nr_1}}';
+                        $widgetContent = '{{widget type="WeltPixel\OwlCarouselSlider\Block\Slider\Custom" slider_id="'. $sliderId[0] .'"}}';
+                        $row['content'] = str_replace($widgetPlaceholder,$widgetContent, $row['content']);
+                        break;
                 }
 
                 $this->pageFactory->create()

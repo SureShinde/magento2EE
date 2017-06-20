@@ -177,6 +177,13 @@ class UpgradeData implements UpgradeDataInterface
             }
         }
 
+        /** Home page V10 */
+        if (version_compare($context->getVersion(), '1.1.11', '<')) {
+            $sliderIds = $this->owl->update('1.1.11');
+            $this->updater->setPagesToCreate('WeltPixel_SampleData::fixtures/pages/pages_1.1.11.csv', $sliderIds);
+            $this->executor->exec($this->updater);
+        }
+
         $setup->endSetup();
     }
 }

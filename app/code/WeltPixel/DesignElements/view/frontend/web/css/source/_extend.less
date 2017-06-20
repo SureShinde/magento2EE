@@ -32,6 +32,13 @@
         }
     }
 }
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+    .theme-pearl {
+        .row {
+            margin-right: 0px;
+        }
+    }
+}
 button:not(.primary) {
     box-shadow: none;
 }

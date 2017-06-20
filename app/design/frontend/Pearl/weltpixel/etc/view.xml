@@ -183,6 +183,10 @@
                 <width>600</width>
                 <height>600</height>
             </image>
+            <image id="new_products_content_widget_grid_hp_v10" type="image">
+                <width>600</width>
+                <height>600</height>
+            </image>
         </images>
     </media>
     <vars module="Magento_Catalog">

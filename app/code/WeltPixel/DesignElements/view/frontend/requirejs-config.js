@@ -19,7 +19,8 @@ var config = {
             load_parallax: 'WeltPixel_DesignElements/js/load_parallax',
             jquery_important: 'WeltPixel_DesignElements/js/canvas/jquery.important',
             animations:  'WeltPixel_DesignElements/js/animations',
-            jquery_transition: 'WeltPixel_DesignElements/js/canvas/jquery.transition'
+            jquery_transition: 'WeltPixel_DesignElements/js/canvas/jquery.transition',
+            btt_button:  'WeltPixel_DesignElements/js/btt_button',
         }
     },
     shim: {
